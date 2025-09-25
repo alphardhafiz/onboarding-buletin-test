@@ -173,7 +173,7 @@ export default function LoginPage() {
                 </svg>
               </div>
               <input
-                type="email"
+                type="text"
                 name="email"
                 placeholder="Email Address"
                 value={form.email}
