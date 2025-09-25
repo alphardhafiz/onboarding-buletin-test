@@ -55,10 +55,8 @@ export default function RegisterPage() {
     // Simpan user baru
     const newUsers = [...users, form];
     localStorage.setItem("users", JSON.stringify(newUsers));
-    localStorage.setItem("token", "fake-jwt-token");
-    localStorage.setItem("currentUser", JSON.stringify(form));
 
-    router.push("/");
+    router.push("/login");
   };
 
   return (
